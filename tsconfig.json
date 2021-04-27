@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "commonjs",
+		"outDir": "./build",
+		"removeComments": true,
+		"isolatedModules": true,
+		"strict": true,
+		"baseUrl": "./",
+		"paths": {
+			"App/*": ["src/*"]
+		},
+		"types": ["@types/node"],
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": ["./src/**/*.ts", "index.ts"]
+}
